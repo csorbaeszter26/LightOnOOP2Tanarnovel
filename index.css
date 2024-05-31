@@ -1,0 +1,21 @@
+main{
+    width: 400px;
+
+}
+.jatekter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.jatekter div{
+    aspect-ratio: 1; /*oldalirany!!*/
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: green;
+
+}
+
+.felkapcs{
+    background-color: yellow !important;
+}
